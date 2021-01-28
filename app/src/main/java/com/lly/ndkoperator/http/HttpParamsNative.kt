@@ -1,5 +1,7 @@
 package com.lly.ndkoperator.http
 
+import android.content.Context
+
 /**
  * HttpParamsNative[v 1.0.0]
  * classes:com.lly.ndkoperator.http.HttpParamsNative
@@ -16,5 +18,8 @@ object HttpParamsNative {
     }
 
     external fun httpMd5Encryption(params: String): String
+
+
+    external fun verifyAppSign(ctx: Context)
 
 }
