@@ -7,10 +7,16 @@
     tools:context=".jpeg.JpegActivity">
 
     <Button
-        android:id="@+id/btn_crypt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onCrypt"
         android:text="加密" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doCompress"
+        android:text="压缩" />
 
 </LinearLayout>
